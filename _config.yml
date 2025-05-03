@@ -16,7 +16,7 @@ subtitle                 : ""
 name                     : "Nikhil Deo"
 description              : "A blog where I share intriguing tech projects, ideas, and experiments — from software to hardware."
 url                      : "https://nikhilDeo004.github.io"
-baseurl                  : ""
+baseurl                  : "/"
 repository               : nikhilDeo004/runtimepages
 teaser                   : "/assets/images/teaser.jpg"
 logo                     : "/assets/images/logo.png"
