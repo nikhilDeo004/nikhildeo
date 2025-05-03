@@ -17,9 +17,9 @@
 <meta name="description" content="Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to:     Improve your developer productivity   Write reliable code   In this article I have tried to document all the debugging methods that I learnt while working on my projects.    Whenever you encounter a bug in any of your code/installation it is always helpful to remember the following things:    The error happens for a logical reason - its never magic   Be confident that you can fix it   Being stuck is temporary   Now that you have these 3 things in your toolkit let us proceed for some debugging steps so that you can feel your inherent superpower. :)  Step 1: Read error message carefully  Error messages usually contain a lot of information about what went wrong. But they sometimes can be very large and overwhelming to read. You can  use these tricks to extract the necessary information from them:    Start fixing the first error message in case of multiple error messages. Fixing the first one often fixes the remaining errors   Search if any solution is available on the internet for the error   Step 2: Brainstorm possible reasons for the error  Now here I won’t be able to give exact reasons but some examples may include:    Is there something wrong with the server?   Am I using correct package version?   Have I followed all the instructions?(In case of errors in installations)   After finding possible reasons try to narrow it down to the most possible reason, also draw a diagram of the process if possible  Step 3: Investigate     Read the documentation (Important)   Add lots of print statements   Use a debugger   Look at logs   A meme that highlights the importance of reading the docs:    Step 4: Make complex things simple     Fix one problem at a time   Write clean code   Reduce randomness   Shorten your feedback/output loop (when you need to run the code many times)   Step 5: This also helps     Take a break   Ask a friend   Explain the error/bug out loud   Finding tools that make debugging easier - eg. debuggers, profilers, tracers, fuzzers, etc   Step 6: After fixing the bug    Celebrate - dance a little   Tell somebody what you learnt - that way you won’t forget it   Document your bug     Debugging can be an interesting adventure.  I would like to end this article by quoting Edsger Dijkstra:    ” Program testing can be used to show the presence of bugs, but never to show their absence! “">
 
 
-  <meta name="author" content="Yash Bhoomkar">
+  <meta name="author" content="Nikhil Deo">
   
-  <meta property="article:author" content="Yash Bhoomkar">
+  <meta property="article:author" content="Nikhil Deo">
   
 
 
@@ -27,7 +27,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Pointer Pages">
 <meta property="og:title" content="Debugging 101 - Love Your Bugs">
-<meta property="og:url" content="http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/">
+<meta property="og:url" content="http://localhost:4000/tech-views/debugging_guide/">
 
 
   <meta property="og:description" content="Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to:     Improve your developer productivity   Write reliable code   In this article I have tried to document all the debugging methods that I learnt while working on my projects.    Whenever you encounter a bug in any of your code/installation it is always helpful to remember the following things:    The error happens for a logical reason - its never magic   Be confident that you can fix it   Being stuck is temporary   Now that you have these 3 things in your toolkit let us proceed for some debugging steps so that you can feel your inherent superpower. :)  Step 1: Read error message carefully  Error messages usually contain a lot of information about what went wrong. But they sometimes can be very large and overwhelming to read. You can  use these tricks to extract the necessary information from them:    Start fixing the first error message in case of multiple error messages. Fixing the first one often fixes the remaining errors   Search if any solution is available on the internet for the error   Step 2: Brainstorm possible reasons for the error  Now here I won’t be able to give exact reasons but some examples may include:    Is there something wrong with the server?   Am I using correct package version?   Have I followed all the instructions?(In case of errors in installations)   After finding possible reasons try to narrow it down to the most possible reason, also draw a diagram of the process if possible  Step 3: Investigate     Read the documentation (Important)   Add lots of print statements   Use a debugger   Look at logs   A meme that highlights the importance of reading the docs:    Step 4: Make complex things simple     Fix one problem at a time   Write clean code   Reduce randomness   Shorten your feedback/output loop (when you need to run the code many times)   Step 5: This also helps     Take a break   Ask a friend   Explain the error/bug out loud   Finding tools that make debugging easier - eg. debuggers, profilers, tracers, fuzzers, etc   Step 6: After fixing the bug    Celebrate - dance a little   Tell somebody what you learnt - that way you won’t forget it   Document your bug     Debugging can be an interesting adventure.  I would like to end this article by quoting Edsger Dijkstra:    ” Program testing can be used to show the presence of bugs, but never to show their absence! “">
@@ -49,7 +49,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/">
+<link rel="canonical" href="http://localhost:4000/tech-views/debugging_guide/">
 
 
 
@@ -68,7 +68,7 @@
 
 
 
-  <link href="/yashbhoomkar/feed.xml" type="application/atom+xml" rel="alternate" title="Pointer Pages Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Pointer Pages Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
@@ -77,7 +77,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/yashbhoomkar/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
@@ -93,22 +93,22 @@
 <title>Debugging 101 - Love Your Bugs | Pointer Pages</title>
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Debugging 101 - Love Your Bugs" />
-<meta name="author" content="Yash Bhoomkar" />
+<meta name="author" content="Nikhil Deo" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to: Improve your developer productivity Write reliable code In this article I have tried to document all the debugging methods that I learnt while working on my projects. Whenever you encounter a bug in any of your code/installation it is always helpful to remember the following things: The error happens for a logical reason - its never magic Be confident that you can fix it Being stuck is temporary Now that you have these 3 things in your toolkit let us proceed for some debugging steps so that you can feel your inherent superpower. :) Step 1: Read error message carefully Error messages usually contain a lot of information about what went wrong. But they sometimes can be very large and overwhelming to read. You can use these tricks to extract the necessary information from them: Start fixing the first error message in case of multiple error messages. Fixing the first one often fixes the remaining errors Search if any solution is available on the internet for the error Step 2: Brainstorm possible reasons for the error Now here I won’t be able to give exact reasons but some examples may include: Is there something wrong with the server? Am I using correct package version? Have I followed all the instructions?(In case of errors in installations) After finding possible reasons try to narrow it down to the most possible reason, also draw a diagram of the process if possible Step 3: Investigate Read the documentation (Important) Add lots of print statements Use a debugger Look at logs A meme that highlights the importance of reading the docs: Step 4: Make complex things simple Fix one problem at a time Write clean code Reduce randomness Shorten your feedback/output loop (when you need to run the code many times) Step 5: This also helps Take a break Ask a friend Explain the error/bug out loud Finding tools that make debugging easier - eg. debuggers, profilers, tracers, fuzzers, etc Step 6: After fixing the bug Celebrate - dance a little Tell somebody what you learnt - that way you won’t forget it Document your bug Debugging can be an interesting adventure. I would like to end this article by quoting Edsger Dijkstra: ” Program testing can be used to show the presence of bugs, but never to show their absence! “" />
 <meta property="og:description" content="Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to: Improve your developer productivity Write reliable code In this article I have tried to document all the debugging methods that I learnt while working on my projects. Whenever you encounter a bug in any of your code/installation it is always helpful to remember the following things: The error happens for a logical reason - its never magic Be confident that you can fix it Being stuck is temporary Now that you have these 3 things in your toolkit let us proceed for some debugging steps so that you can feel your inherent superpower. :) Step 1: Read error message carefully Error messages usually contain a lot of information about what went wrong. But they sometimes can be very large and overwhelming to read. You can use these tricks to extract the necessary information from them: Start fixing the first error message in case of multiple error messages. Fixing the first one often fixes the remaining errors Search if any solution is available on the internet for the error Step 2: Brainstorm possible reasons for the error Now here I won’t be able to give exact reasons but some examples may include: Is there something wrong with the server? Am I using correct package version? Have I followed all the instructions?(In case of errors in installations) After finding possible reasons try to narrow it down to the most possible reason, also draw a diagram of the process if possible Step 3: Investigate Read the documentation (Important) Add lots of print statements Use a debugger Look at logs A meme that highlights the importance of reading the docs: Step 4: Make complex things simple Fix one problem at a time Write clean code Reduce randomness Shorten your feedback/output loop (when you need to run the code many times) Step 5: This also helps Take a break Ask a friend Explain the error/bug out loud Finding tools that make debugging easier - eg. debuggers, profilers, tracers, fuzzers, etc Step 6: After fixing the bug Celebrate - dance a little Tell somebody what you learnt - that way you won’t forget it Document your bug Debugging can be an interesting adventure. I would like to end this article by quoting Edsger Dijkstra: ” Program testing can be used to show the presence of bugs, but never to show their absence! “" />
-<link rel="canonical" href="http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/" />
-<meta property="og:url" content="http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/" />
+<link rel="canonical" href="http://localhost:4000/tech-views/debugging_guide/" />
+<meta property="og:url" content="http://localhost:4000/tech-views/debugging_guide/" />
 <meta property="og:site_name" content="Pointer Pages" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-06-10T09:30:45+05:30" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Debugging 101 - Love Your Bugs" />
 <meta name="twitter:site" content="@" />
-<meta name="twitter:creator" content="@Yash Bhoomkar" />
+<meta name="twitter:creator" content="@Nikhil Deo" />
 <meta name="google-site-verification" content="google7497e540fd5955de" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Yash Bhoomkar"},"dateModified":"2023-06-10T09:30:45+05:30","datePublished":"2023-06-10T09:30:45+05:30","description":"Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to: Improve your developer productivity Write reliable code In this article I have tried to document all the debugging methods that I learnt while working on my projects. Whenever you encounter a bug in any of your code/installation it is always helpful to remember the following things: The error happens for a logical reason - its never magic Be confident that you can fix it Being stuck is temporary Now that you have these 3 things in your toolkit let us proceed for some debugging steps so that you can feel your inherent superpower. :) Step 1: Read error message carefully Error messages usually contain a lot of information about what went wrong. But they sometimes can be very large and overwhelming to read. You can use these tricks to extract the necessary information from them: Start fixing the first error message in case of multiple error messages. Fixing the first one often fixes the remaining errors Search if any solution is available on the internet for the error Step 2: Brainstorm possible reasons for the error Now here I won’t be able to give exact reasons but some examples may include: Is there something wrong with the server? Am I using correct package version? Have I followed all the instructions?(In case of errors in installations) After finding possible reasons try to narrow it down to the most possible reason, also draw a diagram of the process if possible Step 3: Investigate Read the documentation (Important) Add lots of print statements Use a debugger Look at logs A meme that highlights the importance of reading the docs: Step 4: Make complex things simple Fix one problem at a time Write clean code Reduce randomness Shorten your feedback/output loop (when you need to run the code many times) Step 5: This also helps Take a break Ask a friend Explain the error/bug out loud Finding tools that make debugging easier - eg. debuggers, profilers, tracers, fuzzers, etc Step 6: After fixing the bug Celebrate - dance a little Tell somebody what you learnt - that way you won’t forget it Document your bug Debugging can be an interesting adventure. I would like to end this article by quoting Edsger Dijkstra: ” Program testing can be used to show the presence of bugs, but never to show their absence! “","headline":"Debugging 101 - Love Your Bugs","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/yashbhoomkar/assets/images/logo.png"},"name":"Yash Bhoomkar"},"url":"http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nikhil Deo"},"dateModified":"2023-06-10T09:30:45+05:30","datePublished":"2023-06-10T09:30:45+05:30","description":"Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to: Improve your developer productivity Write reliable code In this article I have tried to document all the debugging methods that I learnt while working on my projects. Whenever you encounter a bug in any of your code/installation it is always helpful to remember the following things: The error happens for a logical reason - its never magic Be confident that you can fix it Being stuck is temporary Now that you have these 3 things in your toolkit let us proceed for some debugging steps so that you can feel your inherent superpower. :) Step 1: Read error message carefully Error messages usually contain a lot of information about what went wrong. But they sometimes can be very large and overwhelming to read. You can use these tricks to extract the necessary information from them: Start fixing the first error message in case of multiple error messages. Fixing the first one often fixes the remaining errors Search if any solution is available on the internet for the error Step 2: Brainstorm possible reasons for the error Now here I won’t be able to give exact reasons but some examples may include: Is there something wrong with the server? Am I using correct package version? Have I followed all the instructions?(In case of errors in installations) After finding possible reasons try to narrow it down to the most possible reason, also draw a diagram of the process if possible Step 3: Investigate Read the documentation (Important) Add lots of print statements Use a debugger Look at logs A meme that highlights the importance of reading the docs: Step 4: Make complex things simple Fix one problem at a time Write clean code Reduce randomness Shorten your feedback/output loop (when you need to run the code many times) Step 5: This also helps Take a break Ask a friend Explain the error/bug out loud Finding tools that make debugging easier - eg. debuggers, profilers, tracers, fuzzers, etc Step 6: After fixing the bug Celebrate - dance a little Tell somebody what you learnt - that way you won’t forget it Document your bug Debugging can be an interesting adventure. I would like to end this article by quoting Edsger Dijkstra: ” Program testing can be used to show the presence of bugs, but never to show their absence! “","headline":"Debugging 101 - Love Your Bugs","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/tech-views/debugging_guide/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Nikhil Deo"},"url":"http://localhost:4000/tech-views/debugging_guide/"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -129,57 +129,57 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/yashbhoomkar/"><img src="/yashbhoomkar/assets/images/logo.png" alt="Pointer Pages"></a>
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt="Pointer Pages"></a>
         
-        <a class="site-title" href="/yashbhoomkar/">
+        <a class="site-title" href="/">
           Pointer Pages
           <span class="site-subtitle"></span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
-                href="/yashbhoomkar/about/"
+                href="/about/"
                 
                 
               >About</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/yashbhoomkar/data-structures/"
+                href="/data-structures/"
                 
                 
               >DSA</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/yashbhoomkar/networking/"
+                href="/networking/"
                 
                 
               >Networks</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/yashbhoomkar/operating-systems/"
+                href="/operating-systems/"
                 
                 
               >OS</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/yashbhoomkar/full-stack/"
+                href="/full-stack/"
                 
                 
               >Full Stack </a>
             </li><li class="masthead__menu-item">
               <a
-                href="/yashbhoomkar/tech-views/"
+                href="/tech-views/"
                 
                 
               >Tech Views</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/yashbhoomkar/miscellaneous/"
+                href="/miscellaneous/"
                 
                 
               >Misc</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/yashbhoomkar/comment-policy/"
+                href="/comment-policy/"
                 
                 
               >Comment Policy</a>
@@ -213,7 +213,7 @@
     
       
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/yashbhoomkar/" itemprop="item"><span itemprop="name">Home</span></a>
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
 
           <meta itemprop="position" content="1" />
         </li>
@@ -222,7 +222,7 @@
       
         
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/yashbhoomkar/tech-views" itemprop="item"><span itemprop="name">Tech views</span></a>
+          <a href="/tech-views" itemprop="item"><span itemprop="name">Tech views</span></a>
           <meta itemprop="position" content="2" />
         </li>
         <span class="sep">/</span>
@@ -247,15 +247,15 @@
 
   
     <div class="author__avatar">
-      <a href="http://localhost:4000/yashbhoomkar/">
-        <img src="/yashbhoomkar/assets/images/avatar.jpg" alt="Yash Bhoomkar" itemprop="image" class="u-photo">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/avatar.jpg" alt="Nikhil Deo" itemprop="image" class="u-photo">
       </a>
     </div>
   
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/yashbhoomkar/" itemprop="url">Yash Bhoomkar</a>
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Nikhil Deo</a>
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
@@ -277,15 +277,15 @@
       
         
           
-            <li><a href="mailto:yashbhoomkar.work@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+            <li><a href="mailto:nikhilDeo004.work@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
           
         
           
-            <li><a href="https://github.com/yashbhoomkar" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/nikhilDeo004" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
           
         
           
-            <li><a href="https://www.linkedin.com/in/yashbhoomkar" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://www.linkedin.com/in/nikhil-deo-98277b353" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
           
         
       
@@ -294,8 +294,8 @@
 
       
         <li>
-          <a href="mailto:bhoomkar04@gmail.com" rel="me" class="u-email">
-            <meta itemprop="email" content="bhoomkar04@gmail.com" />
+          <a href="mailto:nikhilDeo004@gmail.com" rel="me" class="u-email">
+            <meta itemprop="email" content="nikhilDeo004@gmail.com" />
             <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
           </a>
         </li>
@@ -382,7 +382,7 @@
       
       <header>
         <h1 id="page-title" class="page__title" itemprop="headline">
-          <a href="http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/" itemprop="url"
+          <a href="http://localhost:4000/tech-views/debugging_guide/" itemprop="url"
             ><p>Debugging 101 - Love Your Bugs</p>
 </a
           >
@@ -439,7 +439,7 @@
 
 <p>In this article I have tried to document all the debugging methods that I learnt while working on my projects.</p>
 
-<p><img src="/yashbhoomkar/images/bugs.png" /></p>
+<p><img src="/images/bugs.png" /></p>
 
 <p>Whenever you encounter a bug in any of your code/installation it is always helpful to remember the following things:</p>
 <ul>
@@ -480,7 +480,7 @@
 
 <p>A meme that highlights the importance of reading the docs:</p>
 
-<p><img src="/yashbhoomkar/images/joke.png" /></p>
+<p><img src="/images/joke.png" /></p>
 
 <h2 id="step-4-make-complex-things-simple">Step 4: Make complex things simple</h2>
 
@@ -531,13 +531,13 @@
           
           <a
             class="post-tag"
-            href="/yashbhoomkar/tags/bugs/"
+            href="/tags/bugs/"
             >bugs</a
           >
           
           <a
             class="post-tag"
-            href="/yashbhoomkar/tags/debugging/"
+            href="/tags/debugging/"
             >debugging</a
           >
           
@@ -548,19 +548,19 @@
       <section class="page__share">
   <h4 class="page__share-title">Share on</h4>
 
-  <a href="https://twitter.com/intent/tweet?text=Debugging+101+-+Love+Your+Bugs%20http%3A%2F%2Flocalhost%3A4000%2Fyashbhoomkar%2Ftech-views%2Fdebugging_guide%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Debugging+101+-+Love+Your+Bugs%20http%3A%2F%2Flocalhost%3A4000%2Ftech-views%2Fdebugging_guide%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fyashbhoomkar%2Ftech-views%2Fdebugging_guide%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftech-views%2Fdebugging_guide%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/tech-views/debugging_guide/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
  
   <nav class="pagination">
     
-      <a href="/yashbhoomkar/operating%20systems/process-creation/" class="pagination--pager" title="Creating Processes">Previous</a>
+      <a href="/operating%20systems/process-creation/" class="pagination--pager" title="Creating Processes">Previous</a>
     
     
-      <a href="/yashbhoomkar/full-stack/edtech/edubuddy-fullstack-platform/" class="pagination--pager" title="EduBuddy: A Full-Stack Smart Learning Platform">Next</a>
+      <a href="/networking/what-happens-when-you-type-google/" class="pagination--pager" title="What Happens When You Type www.google.com in Your Browser?">Next</a>
     
   </nav>
 
@@ -585,64 +585,12 @@
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src="/yashbhoomkar/assets/images/teaser.jpg" alt="">
+        <img src="/assets/images/teaser.jpg" alt="">
       </div>
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/yashbhoomkar/full-stack/smart-expense-manager/" rel="permalink">Smart Expense Manager &amp; Auto-Budgeting with Telegram + Gemini AI
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2025-04-05T11:00:00+05:30">April 5, 2025</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          2 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">💡 Introduction
-</p>
-  </article>
-</div>
-
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/yashbhoomkar/assets/images/teaser.jpg" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/yashbhoomkar/operating%20systems/process-scheduling-algorithms/" rel="permalink">Process Scheduling Algorithms in Operating Systems
+        <a href="/operating%20systems/process-scheduling-algorithms/" rel="permalink">Process Scheduling Algorithms in Operating Systems
 </a>
       
     </h2>
@@ -689,64 +637,12 @@
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src="/yashbhoomkar/assets/images/teaser.jpg" alt="">
+        <img src="/assets/images/teaser.jpg" alt="">
       </div>
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/yashbhoomkar/full-stack/capgemini-internship-experience/" rel="permalink">My Capgemini Internship Experience
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2025-02-13T09:30:00+05:30">February 13, 2025</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          4 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Introduction
-</p>
-  </article>
-</div>
-
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/yashbhoomkar/assets/images/teaser.jpg" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/yashbhoomkar/full-stack/smart-email-routing/" rel="permalink">Smart Email Routing
+        <a href="/full-stack/smart-email-routing/" rel="permalink">Smart Email Routing
 </a>
       
     </h2>
@@ -784,6 +680,110 @@
 </div>
 
     
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/dsa/recursion-and-stackframes/" rel="permalink">Understanding Recursion and Stack Frames
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-12-20T11:00:00+05:30">December 20, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">🧠 Introduction
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/networking/what-are-websockets/" rel="permalink">What are WebSockets? Explained Simply
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-12-01T09:00:00+05:30">December 1, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">🧠 Introduction
+</p>
+  </article>
+</div>
+
+    
   </div>
 </div>
   
@@ -812,7 +812,7 @@
 <!-- end custom footer snippets -->
         <div class="page__footer-follow">
   <div>
-    Yash Bhoomkar
+    Nikhil Deo
   </div>
   <ul class="social-icons">
     
@@ -822,17 +822,17 @@
     
       
         
-          <li><a href="https://github.com/yashbhoomkar" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/nikhilDeo004" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
-          <li><a href="https://www.linkedin.com/in/yashbhoomkar" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+          <li><a href="https://www.linkedin.com/in/nikhilDeo004" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
         
       
     
 
     
-      <li><a href="/yashbhoomkar/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
     
   </ul>
 </div>
@@ -843,14 +843,14 @@
     </div>
 
     
-  <script src="/yashbhoomkar/assets/js/main.min.js"></script>
+  <script src="/assets/js/main.min.js"></script>
 
 
 
 
-<script src="/yashbhoomkar/assets/js/lunr/lunr.min.js"></script>
-<script src="/yashbhoomkar/assets/js/lunr/lunr-store.js"></script>
-<script src="/yashbhoomkar/assets/js/lunr/lunr-en.js"></script>
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 
@@ -858,7 +858,7 @@
     
   <script>
     var disqus_config = function () {
-      this.page.url = "http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.url = "http://localhost:4000/tech-views/debugging_guide/";  /* Replace PAGE_URL with your page's canonical URL variable */
       this.page.identifier = "/tech-views/debugging_guide"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */

@@ -13,11 +13,11 @@ locale                   : "en-US"
 title                    : "Pointer Pages"
 title_separator          : "-"
 subtitle                 : ""
-name                     : "Yash Bhoomkar"
+name                     : "Nikhil Deo"
 description              : "A blog where I share intriguing tech projects, ideas, and experiments — from software to hardware."
-url                      : "https://yashbhoomkar.github.io"
-baseurl                  : "/yashbhoomkar"
-repository               : yashbhoomkar/runtimepages
+url                      : "https://nikhilDeo004.github.io"
+baseurl                  : ""
+repository               : nikhilDeo004/runtimepages
 teaser                   : "/assets/images/teaser.jpg"
 logo                     : "/assets/images/logo.png"
 masthead_title           :
@@ -47,11 +47,11 @@ og_image                 :
 
 social:
   type                   : "Person"
-  name                   : "Yash Bhoomkar"
+  name                   : "nikhilDeo"
   links:
-    - "mailto:yashbhoomkar.work@gmail.com"
-    - "https://github.com/yashbhoomkar"
-    - "https://www.linkedin.com/in/yashbhoomkar"
+    - "mailto:nikhilDeo004@gmail.com"
+    - "https://github.com/nikhilDeo004"
+    - "https://www.linkedin.com/in/nikhilDeo004"
 
 # Analytics
 analytics:
@@ -59,31 +59,31 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yash Bhoomkar"
+  name             : "Nikhil Deo"
   avatar           : "/assets/images/avatar.jpg"
   bio              : "Hello, this is my tech journal. Looking forward to collaborating on open-source projects!"
   location         : "Pune, India"
-  email            : "bhoomkar04@gmail.com"
+  email            : "nikhilDeo004@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:yashbhoomkar.work@gmail.com"
+      url: "mailto:nikhilDeo004.work@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yashbhoomkar"
+      url: "https://github.com/nikhilDeo004"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yashbhoomkar"
+      url: "https://www.linkedin.com/in/nikhil-deo-98277b353"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yashbhoomkar"
+      url: "https://github.com/nikhilDeo004"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yashbhoomkar"
+      url: "https://www.linkedin.com/in/nikhilDeo004"
 
 # Reading Files
 include:

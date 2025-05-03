@@ -1,23 +1,35 @@
 ---
 layout: single
-title: "About"
+title: About
 permalink: /about/
 ---
 
-> A space to share my journey through tech, projects, and ideas worth spreading.
+# 👋 Hi, I'm Nikhil Deo
 
-Hi! I'm **Yash Bhoomkar**, an engineering student at Pune Institute of Computer Technology, currently pursuing a Bachelor's degree in Computer Science with a Minor in Data Science from IIT Madras.
+🎓 I'm a Computer Science student at PVG College of Science, Pune, with a keen interest in software development and emerging technologies. I'm also currently learning German (A1 level) to broaden my global communication skills.
 
-My interests lie in exploring generative AI, system design, full-stack development, and building tools that solve real-world problems. From working on intelligent unit test case generators during my internship at **Capgemini GenAI**, to creating AI-driven marketing products and ML-powered sentiment analyzers — I’ve found joy in blending creativity with code.
+## 🔧 Skills & Interests
 
-This blog serves as my digital journal where I publish thoughts, lessons, and side-projects on topics that fascinate me. You’ll find:
-- 👨‍💻 Deep dives into tech projects and ideas
-- 🧠 Explanations of complex concepts made simple
-- 🚀 Tutorials, tips, and quick installation guides
-- 📚 Notes from personal study sessions and courses
-- 🤝 Opportunities for collaboration
+- 💻 Programming Languages: [List any known languages]
+- 🌐 Web Development: [List any known frameworks or tools]
+- 🛠️ Tools & Technologies: [List any known tools or technologies]
+- 🌱 Currently exploring: [List any areas of current learning or interest]
 
-I’m always open to new ideas, contributions, and connecting with like-minded enthusiasts. If you’re into tech, open-source, or just curious — let’s chat!
+## 📚 Education
 
-Thanks for stopping by!  
-— **Yash**
+- **PVG College of Science, Pune**
+  - Bachelor of Science in Computer Science
+  - [Include any notable achievements or projects]
+
+## 🌍 Languages
+
+- English
+- German (A1 Level)
+ 
+## 📫 Let's Connect
+
+- LinkedIn: [https://www.linkedin.com/in/nikhil-deo-98277b353](https://www.linkedin.com/in/nikhil-deo-98277b353)
+- GitHub: [Your GitHub URL]
+
+Feel free to reach out for collaboration or just to say hi!
+
